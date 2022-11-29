@@ -1,0 +1,11 @@
+my_list = []
+Num = int(input("how many numbers will there be"))
+Num1 = Num
+while Num != 0:
+    my_list.append(float(input('Enter a number')))
+    Num = Num-1
+p1 = sum(my_list)
+p = float(p1/Num1)
+print(p)
+
+    
